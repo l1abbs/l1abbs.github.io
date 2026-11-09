@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GTB - Projects</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>GTB</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="projects.html">Projects</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2><img class="project-icon" src="images/f76mm-icon.png" alt="Mod manager icon"> Fallout 76 Mod Manager</h2>
+    <p>This is my main project. It's a mod manager for Fallout 76 that runs on Linux. I didn't start it from
+      nothing, it's a fork of <a href="https://github.com/FelisDiligens/QuickConfiguration2">Quick Configuration 2</a>
+      by FelisDiligens (which is MIT licensed) and I merged in ideas from a few other Fallout 76 mod tools.</p>
+
+    <img src="images/f76mm-dashboard.jpg" alt="Screenshot of the mod manager home dashboard">
+    <p><em>The home dashboard of my mod manager. It checks the game folder and ini files are all ok.</em></p>
+
+    <h3>What it does</h3>
+    <ul>
+      <li>Installs and turns on/off mods for Fallout 76</li>
+      <li>Reads and writes the game's .ba2 archive files natively, so it doesn't need Windows tools</li>
+      <li>Links installed mods back to their Nexus Mods page and checks for updates</li>
+      <li>Has game tweaks (like a frame cap) and an ini editor</li>
+      <li>Backups so you can undo things if a mod breaks the game</li>
+    </ul>
+
+    <h3>Made with</h3>
+    <p>Tauri, Rust and React (TypeScript).</p>
+
+    <h2>Plan: putting it on Nexus Mods</h2>
+    <p>I intend to make this an uploadable project on Nexus Mods so other Linux players can use it. It isn't
+      there yet, before I can upload it I need to:</p>
+    <ol>
+      <li>Get permission / give proper credit to the original authors of the tools I merged</li>
+      <li>Register my own Nexus app name (it still uses the original one)</li>
+      <li>Write a proper description page and install guide</li>
+      <li>Test it on a clean install, not just my own PC</li>
+    </ol>
+
+    <h2>Video</h2>
+    <p>Here's the official Fallout 76 trailer so you know what game this is for:</p>
+    <iframe class="video" src="https://www.youtube.com/embed/kYATmwTY6IU"
+      title="Fallout 76 - Official E3 Trailer" allowfullscreen></iframe>
+
+    <h2>Other projects</h2>
+    <p>[Etc, etc, pretend it's some highly creditted list of bright github activity. didn't I say something about opsec in that other html? Damn I'd be pretty poor at it if I did put something here... *laugh track]</p>
+  </main>
+
+  <footer>
+    <p>Credits: Quick Configuration 2 by FelisDiligens (MIT). Fallout 76 and its artwork belong to Bethesda Softworks.
+      Trailer by Bethesda Softworks UK on YouTube.</p>
+    <p>&copy; 2026 GTB Industries incorporated parody this symbol, does it have legal reprocussions if it's not a valid copyright holder? I mean, i'm inputting it for my educational purposes. something something, statue of limitations, right? ... What do you mean thats only for americans?</p>
+  </footer>
+</body>
+</html>
